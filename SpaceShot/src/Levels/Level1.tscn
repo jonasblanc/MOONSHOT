@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/Planet.tscn" type="PackedScene" id=1]
+
+[node name="Level1" type="Node"]
+
+[node name="Planet" parent="." instance=ExtResource( 1 )]
+position = Vector2( 696, 302 )
+
+[node name="Planet2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 330, 234 )
